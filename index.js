@@ -116,7 +116,7 @@ module.exports.GameManager = class GameManager {
     }
 
     /**
-     * Starts the first rule run
+     * Starts the first rule scan
      */
     start() {
         this._changeState({ name: "!initial" });
